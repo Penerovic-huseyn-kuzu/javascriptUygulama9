@@ -42,8 +42,10 @@ document.write("Daha büyük bir sayı giriniz.<br>");
 }
 else if (tahmin>sayi)
 {
-document.write("Daha küçük bir sayı giriniz.<br>"); 
+if (tahmin<sayi)
 }
+document.write("Daha küçük bir sayı giriniz.<br>"); 
+}            
 else if (tahmin===sayi)
 {
         alert("Tebrikleri tuttuğum sayıyı " + sayac + ". denemede buldun.");
